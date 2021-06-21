@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam';
+}
+
+:root {
+    --background: #1d1e25;
+    --hover: #f25f3a;
+}
+
+body {
+    background: #f1f1f1;
+    min-height: 100vh;
+}
+
+.footer {
+    background: var(--background);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* / adjust it according to waht you like */
+    height: 40vh;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.block1 {
+    display: block;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+ul {
+    line-height: 2rem;
+    display: inline-block;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    /* lets first add Some Nice hover effect */
+    transition: 0.2s ease;
+}
+
+ul li a:hover {
+    color: var(--hover);
+}
+
+.block2 {
+    position: absolute;
+    display: block;
+    right: 35%;
+    margin-top: 20px;
+}
+
+.block2 ul {
+    line-height: 2rem;
+}
+
+.subscribe {
+    position: absolute;
+    display: block;
+    right: 5%;
+    margin-top: 30px;
+}
+
+.subscribe input {
+    background: var(--hover);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 3rem;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe input::placeholder {
+    color: #fff;
+}
+
+.notified {
+    margin-top: 10px;
+    color: #ccc;
+    position: absolute;
+    right: 12%;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.copyright {
+    position: absolute;
+    bottom: 12%;
+    right: 5%;
+    color: #f1f1f1;
+    opacity: 0.9;
+    font-family: 'Poppins';
+}
+
+.ytText {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+}
